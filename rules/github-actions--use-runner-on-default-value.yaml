@@ -3,7 +3,7 @@ id: github-actions-use-ubuntu-2404
 language: YAML
 rule:
   pattern: "runs-on: ubuntu-latest"
-fix: "runs-on: ubuntu-24.04
+fix: "runs-on: ubuntu-24.04"
 message: |
   Use ubuntu-24.04 as default runner
 files:
