@@ -17,3 +17,7 @@ jobs:
           ls -al
           ./ast-grep --version
           ./sg --version
+      - name: scan
+        run: |
+          ./ast-grep scan .github/workflows/
+          ./sg scan .github/workflows/
